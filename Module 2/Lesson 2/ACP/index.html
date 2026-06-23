@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Weather App Homepage</title>
+
+    <style>
+        body {
+            font-family:cursive;
+            background: linear-gradient(to bottom, #87CEEB, #E0F7FA);
+            text-align: center;
+            margin:0;
+            padding: 34px;
+        }
+
+        .weather-card {
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 15px;
+            background: linear-gradient(135deg,#4FC3F7,#0288D1);
+            color: white;
+        }
+
+        .icon {
+            font-size: 49px;
+            animation: float 2s infinite ease-in-out;
+        }
+
+        .forecast {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .day {
+            background: white;
+            color: black;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My Weather App</h1>
+
+    <div class="weather-card">
+        <div class="icon">☀️</div>
+        <h2>32°C</h2>
+        <p>Sunny Day</p>
+    </div>
+
+    <h2>Weekly Forecast</h2>
+
+    <div class="forecast">
+        <div class="day">Mon<br>30°C</div>
+        <div class="day">Tue<br>29°C</div>
+        <div class="day">Wed<br>31°C</div>
+        <div class="day">Thu<br>28°C</div>
+        <div class="day">Fri<br>33°C</div>
+        <div class="day">Sat<br>35°C</div>
+        <div class="day">Sun<br>25°C</div>
+        </div>
+
+</body>
+</html>
