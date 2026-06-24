@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Typography</title>
+    <style>
+        body{
+           background-image: linear-gradient(to bottom,navy,rgb(235, 108, 104), yellow);
+            background-repeat: no-repeat;
+            font-family: Helvetica;
+    
+        }
+        .header{
+            text-transform: uppercase;
+        }
+        #tagline{
+            font-style: italic;
+         }
+         .power{
+            font-weight: bold;
+         }
+         .weakness{
+            text-decoration: line-through;
+
+         }
+         .badge{
+            transform: rotate(15deg);
+         }
+        
+        .circle{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            animation: colorchange 5s infinite;
+        }
+        @keyframes colorchange{
+            0%{
+                background-color: purple;
+            }
+            25%{
+                background-color: white;
+            }
+            50%{
+                background-color: blue;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <h1>SUPER MAN</h1>
+    <p id="tagline">The Most Powerful Hero</p>
+    <h2 class="headers">Powers</h2>
+    <p id="power">Super Speed</p>
+    <p id="power">Super-Human power</p>
+    <h3 class="heading">Weakness</h3>
+    <p>Kryptonite</p>
+    <p class="badge">Top Hero</p>
+<center>
+    <div class="circle"></div>
+</center>
+
+
+    
+
+    
+    
+    
+    
+</body>
+</html>
