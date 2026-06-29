@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Advance Selectors</title>
+    <style>
+        body{
+            background-image: radial-gradient(white,orange);
+        }
+        h1, p{
+            background:#ffd08a;
+         }
+         ul > li {
+            background:#ffe0b2;
+         }
+         ul li:nth-child(3) {
+            background: orange; 
+         }
+        p::first-letter{
+            font-size: 200%;
+            color: rgb(236, 163, 54);
+
+         }
+        a:hover{
+            background: orange;
+         }
+         
+    </style>
+</head>
+<body>
+    <h1>Food Menu</h1>
+    <P>Pick Your Favourite Dish and DIG IN!</P>
+    <ul>
+        <li>Pizza</li>
+        <li>Burger</li>
+        <li>Tacos - Chef's Special!</li>
+        <li>Noodles</li>
+        <li>Ice Cream</li>
+ </ul>
+ <p>Every Dish on this menu is made with love</p>
+ <button style="background: white;"><a href="#">ORDER NOW!</a></button>
+    
+</body>
+</html>
